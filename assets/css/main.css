@@ -11988,7 +11988,7 @@ textarea.form-control-lg {
   text-align: center;
 }
 
-.color, .card {
+.color, .card button, .card {
   background-color: #2a2a2a;
   color: #cf649a;
 }
@@ -11998,7 +11998,10 @@ textarea.form-control-lg {
 }
 
 .card {
-  height: 500px;
+  height: 350px;
+}
+.card button {
+  background-color: #a1a1a1;
 }
 
 /*# sourceMappingURL=main.css.map */
