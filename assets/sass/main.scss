@@ -27,10 +27,16 @@
   @extend .center;
   @extend .color;
   @extend .font;
-  height: 350px;
+  height: 400px;
+  gap: 10px;
 
   button {
     @extend .color;
     background-color: $light;
   }
+
+  p {
+    text-align: justify;
+  }
+
 }

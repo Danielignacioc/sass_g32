@@ -11998,10 +11998,14 @@ textarea.form-control-lg {
 }
 
 .card {
-  height: 350px;
+  height: 400px;
+  gap: 10px;
 }
 .card button {
   background-color: #a1a1a1;
+}
+.card p {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=main.css.map */
