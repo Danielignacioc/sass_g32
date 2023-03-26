@@ -1,4 +1,11 @@
-@import 'variables';
+@import './scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .center {
     display: flex;
@@ -8,5 +15,18 @@
 }
 
 .color {
+    background-color: $dark;
+    color:$pink-light;
+}
+
+.font {
+    font-family: 'Gloria Hallelujah';
+}
+
+.card {
+    @extend .center;
+    @extend .color;
+    @extend .font;
+    height: 500px;
 
 }
