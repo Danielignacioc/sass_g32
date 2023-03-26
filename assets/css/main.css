@@ -11999,10 +11999,23 @@ textarea.form-control-lg {
 
 .card {
   height: 400px;
-  gap: 10px;
+  margin: 30px;
+  padding: 30px;
 }
 .card button {
-  background-color: #a1a1a1;
+  background-color: #d63384;
+  color: white;
+  box-shadow: 10px 10px 5px #2b0a1a;
+}
+.card button:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+.card h1, .card .h1,
+.card h5,
+.card .h5,
+.card p {
+  margin-bottom: 25px;
 }
 .card p {
   text-align: justify;
